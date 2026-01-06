@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solana Ko-fi Clone</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@solana/web3.js@1.73.0/lib/index.iife.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <img id="profile-img" src="profile.jpg" alt="Profile Image" class="profile-img">
+  <h1 id="creator-name">Loading...</h1>
+  <p id="creator-bio">Please wait while we load the profile.</p>
+
+  <p id="coffeePrice"></p>
+  <p id="platformFee"></p>
+
+  <button id="connectWalletBtn">Connect Wallet</button>
+  <button id="buyCoffeeBtn" disabled>Buy Coffee</button>
+
+  <p id="thankYouMsg" style="display:none;">☕ Thank you for your support!</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

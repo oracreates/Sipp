@@ -1,0 +1,18 @@
+
+
+[
+  {
+    "handle": "JaneDoe",
+    "name": "Jane Doe",
+    "wallet": "5G9hKABCDE1234567890ABCDE1234567890ABCDE12345",
+    "bio": "Digital artist & storyteller",
+    "coffeePriceSOL": 0.01
+  },
+  {
+    "handle": "AlexMusic",
+    "name": "Alex Music",
+    "wallet": "7X1ABCDXYZ1234567890ABCDXYZ1234567890ABCDXYZ12",
+    "bio": "Indie musician",
+    "coffeePriceSOL": 0.01
+  }
+]
